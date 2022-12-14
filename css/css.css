@@ -1,0 +1,257 @@
+body{
+    background-color: black;
+}
+section h1{
+    color: #f27609;
+    font-style: normal; 
+}
+
+section h2{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase; 
+    font-style: normal;
+    margin-top: 45px;
+}
+section h3{
+    color: #f27609;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+section h4{
+    color: #f27609;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+section ul{
+    color: #f27609;
+}
+section ol{
+    color: white;
+}
+section p{
+    color: white;
+    font-size: 18px;
+    font-style: normal 100;
+    text-align: justify;
+}
+.container{
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.title h1{
+    font-size: 3em;
+    border-bottom: #ccc 1px solid;
+    padding-bottom: 1rem;
+    color:#f27609;
+}
+header{
+    min-height: 70px;
+    background-color: black;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    
+}
+.menu li{
+    padding: 20px;
+    min-width: 100px;
+}
+.menu a:link{
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+.menu a:visited{
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+.menu a:active{
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+footer{
+    background-color: #f5f5f5;
+    font-size: .8em;
+    align-items: flex-end;
+    align-self: flex-end;    
+
+}
+footer p{
+    line-height: 50px;
+    color:#6c757d;
+    
+}
+footer .container{
+    display: flex;
+    align-items: center; 
+}
+
+
+/* especifico ao index */
+.index{
+    display: flex;
+    margin: auto;
+    width: 60%;
+    padding: 15px;
+    max-width: 960px;
+    max-height: 650px;
+}
+.index div{
+    display:inline-block;
+    height: 650px;
+    
+}
+.index1{
+   
+    width: 40%;
+}
+.index1 img{
+    /* max-height: 200px;
+    max-width: 200px; */
+    width: 80%;
+    border-radius: 20%;
+    
+}
+.index2 h3{
+    color:rgb(253, 253, 253);
+    border-bottom: #f27609 1px solid;
+    padding-left: 15px;
+    font-size: 23px;
+
+}
+.index2 p{
+    color:rgb(253, 253, 253);
+    padding-top: 15px;
+    font-size: 18px;
+    max-width: 300px; 
+
+}
+.index2 {
+    width: 54%;
+    text-align: left;
+    
+}
+
+
+
+/* especifico ao portifolio */
+.separate {
+    color:white;
+    display: flex;
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.bloco{
+    display: flex;
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: #f27609 1px solid;
+    
+}
+.bloco  p{      /*mudarrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr*/
+    color:ivory;
+}
+.bloco div{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.bloco img{
+    transition: all 0.8s;
+    cursor: pointer;
+    max-height: 128px;
+    max-height: 128px;
+}
+.bloco img:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.bloco :hover #texto{
+    opacity:1;
+}
+#texto{
+    position: bottom;
+    text-align: center;
+    bottom: 0px;
+    padding:0px;
+    color: rgb(255, 255, 255);
+    opacity:0;
+    transition: opacity .2s linear;
+    line-height:50px;
+}
+
+/* caso extraordinario */
+
+.descricao body{
+    text-align: center;
+    background-color: rgb(117, 138, 23) ;
+    font-family: "Monteserrat", sans-serif;
+    font-size: 20px;
+}
+.descricao header{
+    min-height: 70px;
+    padding-left: 15px;;
+    background-color: #203302;
+}
+.descricao .container{
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.descricao .title h1{
+    font-size: 3em;
+    border-bottom: #203302 1px solid;
+    padding-bottom: 1rem;
+    color:#203302;
+    background-color: rgb(117, 138, 23);
+}
+.descricao footer{
+    background-color: #203302;
+}
+.descricao h1{
+    color: #203302;
+}
+.char p{
+    max-width: 300px;
+}
+.char img{
+    margin-top: -200px;
+    padding-bottom: 50px;
+}
+
+/* para pop up*/
+
+.aba{
+    display: flex;
+    margin: auto;
+    padding: 15px;
+}
+.aba p{
+    padding-left: 15px;
+    color: white;
+
+}
+.aba img{
+    height: 200px;
+}
+.aba div{
+    display:inline-block;
+}
+
+    
